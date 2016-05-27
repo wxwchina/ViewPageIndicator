@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <com.example.viewpageindicator.ViewPageIndicator
+        android:id="@+id/indicator"
+        app:ViewPageIndicator_count="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RadioButton
+            android:id="@+id/text1"
+            android:text="标题1"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text2"
+            android:text="标题2"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text3"
+            android:text="标题3"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text4"
+            android:text="标题4"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text5"
+            android:text="标题5"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text6"
+            android:text="标题6"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text7"
+            android:text="标题7"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <RadioButton
+            android:id="@+id/text8"
+            android:text="标题8"
+            android:background="@drawable/back1"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+
+    </com.example.viewpageindicator.ViewPageIndicator>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

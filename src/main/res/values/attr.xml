@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ViewPageIndicator" >
+        <attr name="ViewPageIndicator_count" format="integer"/>
+
+
+
+
+
+    </declare-styleable>
+</resources>
